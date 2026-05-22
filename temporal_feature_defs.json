@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "posts_total",
+    "desc": "Número total de publicaciones por usuario"
+  },
+  {
+    "feature": "active_days",
+    "desc": "Cantidad de días distintos con actividad"
+  },
+  {
+    "feature": "span_days",
+    "desc": "Ventana temporal entre primera y última publicación"
+  },
+  {
+    "feature": "posts_per_active_day",
+    "desc": "Promedio de publicaciones por día activo"
+  },
+  {
+    "feature": "posts_per_span_day",
+    "desc": "Promedio de publicaciones por día en la ventana total"
+  },
+  {
+    "feature": "mean_interarrival_hours",
+    "desc": "Tiempo medio entre publicaciones"
+  },
+  {
+    "feature": "std_interarrival_hours",
+    "desc": "Desviación estándar entre publicaciones"
+  },
+  {
+    "feature": "burstiness",
+    "desc": "Medida de rachas/bursts temporales"
+  },
+  {
+    "feature": "hour_entropy",
+    "desc": "Entropía de actividad por hora"
+  },
+  {
+    "feature": "weekday_entropy",
+    "desc": "Entropía de actividad por día de la semana"
+  },
+  {
+    "feature": "peak_hour_share",
+    "desc": "Proporción de actividad en la hora más frecuente"
+  },
+  {
+    "feature": "peak_weekday_share",
+    "desc": "Proporción de actividad en el día más frecuente"
+  },
+  {
+    "feature": "weekend_ratio",
+    "desc": "Proporción de publicaciones en fin de semana"
+  },
+  {
+    "feature": "active_hours",
+    "desc": "Cantidad de horas distintas con actividad"
+  },
+  {
+    "feature": "active_weekdays",
+    "desc": "Cantidad de días de semana distintos con actividad"
+  }
+]

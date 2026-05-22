@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "checkpoint_stages": [
+    "raw_load",
+    "cleaning",
+    "feature_engineering",
+    "modeling",
+    "evaluation"
+  ],
+  "format": "parquet",
+  "hash_function": "sha256"
+}

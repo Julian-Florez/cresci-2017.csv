@@ -1,0 +1,19 @@
+{
+  "col": [
+    "timestamp",
+    "time_zone",
+    "updated"
+  ],
+  "parsed_pct": [
+    99.7,
+    0.0,
+    96.8
+  ],
+  "invalid_pct": [
+    0.3,
+    100.0,
+    3.2
+  ],
+  "timezone": "UTC",
+  "format": "auto"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "feature": "posts_por_dia",
+    "desc": "Promedio de posts por d\u00eda"
+  },
+  {
+    "feature": "reply_rate",
+    "desc": "Tasa de respuestas por post"
+  }
+]
