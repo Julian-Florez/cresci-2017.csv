@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47d48e41b96be54a030b40c7de52147aa2b6ad3c928f2b574207684109f090cd
-size 214
+{
+  "status": "ok",
+  "bootstrap": {
+    "n_boot": 100,
+    "accuracy_std": 0.015222394388971563,
+    "precision_std": null,
+    "recall_std": null,
+    "f1_std": null,
+    "positive_rate_std": null
+  }
+}

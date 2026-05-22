@@ -1,0 +1,22 @@
+{
+  "run_id": "20260522_143308",
+  "n_rows_features": 7144,
+  "n_features_analyzed": 18,
+  "target_col": "ground_truth_class",
+  "insights_path": "output\\eda_insights_20260522_143308.csv",
+  "report_path": "output\\eda_report_20260522_143308.md",
+  "figures": [
+    "output\\artifacts\\figures\\20260522_143308__reply_rate.png",
+    "output\\artifacts\\figures\\20260522_143308__posts_total_temporal.png",
+    "output\\artifacts\\figures\\20260522_143308__span_days.png",
+    "output\\artifacts\\figures\\20260522_143308__posts_per_active_day.png",
+    "output\\artifacts\\figures\\20260522_143308__posts_per_span_day.png",
+    "output\\artifacts\\figures\\20260522_143308__mean_interarrival_hours.png",
+    "output\\artifacts\\figures\\20260522_143308__std_interarrival_hours.png",
+    "output\\artifacts\\figures\\20260522_143308__burstiness.png",
+    "output\\artifacts\\figures\\20260522_143308__weekend_ratio.png",
+    "output\\artifacts\\figures\\20260522_143308___char_len_median.png",
+    "output\\artifacts\\figures\\20260522_143308___char_len_std.png",
+    "output\\artifacts\\figures\\20260522_143308___unique_word_ratio_mean.png"
+  ]
+}

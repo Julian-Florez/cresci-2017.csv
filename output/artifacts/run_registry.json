@@ -1,3 +1,98 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02806b60943351299795b6c4e70f71259f0936d80ef8d4b73fa33885eef81c53
-size 2118
+[
+  {
+    "run_id": "20260522_133200",
+    "timestamp": "2026-05-22T13:43:31.835165",
+    "seed": 42,
+    "random_state": 42,
+    "python_version": "3.10.11",
+    "n_features": 16,
+    "n_rows_features": 3683,
+    "best_model": "random_forest",
+    "metrics_summary": {
+      "model": "random_forest",
+      "accuracy": 0.8679927667269439,
+      "precision": 0.7545313881520778,
+      "recall": 0.6949300125994581,
+      "f1": 0.7147125722610879,
+      "roc_auc": NaN,
+      "cv_f1_macro_mean": 0.7282369280471952,
+      "cv_f1_macro_std": 0.024384568767450075
+    },
+    "artifacts_dir": "output\\artifacts",
+    "extra": {
+      "note": "auto-log from notebook cell 48"
+    }
+  },
+  {
+    "run_id": "20260522_134631",
+    "timestamp": "2026-05-22T13:48:57.881948",
+    "seed": 42,
+    "random_state": 42,
+    "python_version": "3.10.11",
+    "n_features": 16,
+    "n_rows_features": 3683,
+    "best_model": "random_forest",
+    "metrics_summary": {
+      "model": "random_forest",
+      "accuracy": 0.8679927667269439,
+      "precision": 0.7545313881520778,
+      "recall": 0.6949300125994581,
+      "f1": 0.7147125722610879,
+      "roc_auc": NaN,
+      "cv_f1_macro_mean": 0.7282369280471952,
+      "cv_f1_macro_std": 0.024384568767450075
+    },
+    "artifacts_dir": "output\\artifacts",
+    "extra": {
+      "note": "auto-log from notebook cell 48"
+    }
+  },
+  {
+    "run_id": "20260522_142900",
+    "timestamp": "2026-05-22T14:31:22.492996",
+    "seed": 42,
+    "random_state": 42,
+    "python_version": "3.10.11",
+    "n_features": 16,
+    "n_rows_features": 3683,
+    "best_model": "random_forest",
+    "metrics_summary": {
+      "model": "random_forest",
+      "accuracy": 0.8679927667269439,
+      "precision": 0.7545313881520778,
+      "recall": 0.6949300125994581,
+      "f1": 0.7147125722610879,
+      "roc_auc": NaN,
+      "cv_f1_macro_mean": 0.7282369280471952,
+      "cv_f1_macro_std": 0.024384568767450075
+    },
+    "artifacts_dir": "output\\artifacts",
+    "extra": {
+      "note": "auto-log from notebook cell 48"
+    }
+  },
+  {
+    "run_id": "20260522_143308",
+    "timestamp": "2026-05-22T15:01:30.225426",
+    "seed": 42,
+    "random_state": 42,
+    "python_version": "3.10.11",
+    "n_features": 18,
+    "n_rows_features": 7144,
+    "best_model": "random_forest",
+    "metrics_summary": {
+      "model": "random_forest",
+      "accuracy": 0.8852611940298507,
+      "precision": 0.8488117652456593,
+      "recall": 0.7883923390910764,
+      "f1": 0.8078738175129977,
+      "roc_auc": NaN,
+      "cv_f1_macro_mean": 0.7934497010413706,
+      "cv_f1_macro_std": 0.014883438495244582
+    },
+    "artifacts_dir": "output\\artifacts",
+    "extra": {
+      "note": "auto-log from notebook cell 48"
+    }
+  }
+]

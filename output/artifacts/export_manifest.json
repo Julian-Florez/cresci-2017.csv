@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b971983b6c79e99e9d0e57245ce9131a31306aadd9ea5b3c8989efa3254448aa
-size 619
+{
+  "run_id": "20260522_143308",
+  "export_timestamp": "2026-05-22T15:01:30.202771",
+  "artifacts": {
+    "metrics_csv": "output\\artifacts\\metrics.csv",
+    "metrics_json": "output\\artifacts\\metrics.json",
+    "results_summary": "output\\artifacts\\results_summary.csv",
+    "feature_importance": "output\\artifacts\\feature_importance_export.csv",
+    "model_best": "output\\artifacts\\model_best_final.pkl",
+    "experiment_metadata": "output\\artifacts\\experiment_metadata.json",
+    "model_comparison": "output\\artifacts\\model_comparison.csv",
+    "feature_catalog": "feature_catalog.json"
+  }
+}

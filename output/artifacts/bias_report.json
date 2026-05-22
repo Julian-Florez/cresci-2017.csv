@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:89c09f4673251d4f50019c3cd02041715b7d2544ce35621e5ba6e8cabba6b2ca
-size 87
+{
+  "status": "skipped",
+  "reason": "group_cols o metadata/X_test no disponibles"
+}

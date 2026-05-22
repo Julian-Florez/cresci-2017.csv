@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3400fb8ae54d86df669d8d3a9ce349e0a1e8a4220eb88d79b5c113eb7c54f59f
-size 378
+{
+  "timestamp": "2026-05-22T15:01:30.284101",
+  "memory_current_gb": 0.5563163757324219,
+  "memory_available_gb": 3.8434982299804688,
+  "memory_limit_gb": 8.0,
+  "stages": {},
+  "compression": {
+    "original_size_mb": 1.8757753372192383,
+    "compressed_size_mb": 0.875645637512207,
+    "compression_ratio": 0.46681797128771113,
+    "target_achieved": "True"
+  }
+}

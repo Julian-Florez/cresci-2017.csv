@@ -1,3 +1,95 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:825347744d99d0b1445b8ae7c8b94745decbe0d4f57cb67623a9c52a3a01e786
-size 1991
+{
+  "status": "ok",
+  "drift_metrics": [
+    {
+      "feature": "reply_rate",
+      "psi": 0.0,
+      "ks": 0.005597014925373234
+    },
+    {
+      "feature": "posts_total_temporal",
+      "psi": 0.014187972081450015,
+      "ks": 0.05410447761194026
+    },
+    {
+      "feature": "span_days",
+      "psi": 0.01693490895599138,
+      "ks": 0.05410447761194037
+    },
+    {
+      "feature": "posts_per_active_day",
+      "psi": 0.0,
+      "ks": 0.033582089552238736
+    },
+    {
+      "feature": "posts_per_span_day",
+      "psi": 0.01633286324902851,
+      "ks": 0.06343283582089554
+    },
+    {
+      "feature": "mean_interarrival_hours",
+      "psi": 0.016195393900003345,
+      "ks": 0.06156716417910446
+    },
+    {
+      "feature": "std_interarrival_hours",
+      "psi": 0.013146211650347624,
+      "ks": 0.029850746268656803
+    },
+    {
+      "feature": "burstiness",
+      "psi": 0.0069751811339419855,
+      "ks": 0.03544776119402984
+    },
+    {
+      "feature": "weekend_ratio",
+      "psi": 0.03808683607739563,
+      "ks": 0.04104477611940294
+    },
+    {
+      "feature": "_char_len_median",
+      "psi": 0.02919738018570387,
+      "ks": 0.04664179104477617
+    },
+    {
+      "feature": "_char_len_std",
+      "psi": 0.014838918785406352,
+      "ks": 0.06529850746268662
+    },
+    {
+      "feature": "_unique_word_ratio_mean",
+      "psi": 0.008406451837769682,
+      "ks": 0.03171641791044777
+    },
+    {
+      "feature": "_sent_compound_mean",
+      "psi": 0.055965314706911684,
+      "ks": 0.08395522388059706
+    },
+    {
+      "feature": "_num_hashtags_sum",
+      "psi": 0.00032963866742069883,
+      "ks": 0.018656716417910446
+    },
+    {
+      "feature": "_num_urls_sum",
+      "psi": 0.0012846250894083607,
+      "ks": 0.03171641791044777
+    },
+    {
+      "feature": "_num_mentions_sum",
+      "psi": 7.21428124610206e-06,
+      "ks": 0.016791044776119368
+    },
+    {
+      "feature": "tfidf_svd_0",
+      "psi": 0.014942812731724684,
+      "ks": 0.03731343283582095
+    },
+    {
+      "feature": "tfidf_svd_1",
+      "psi": 0.0140688519631856,
+      "ks": 0.052238805970149294
+    }
+  ]
+}

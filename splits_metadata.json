@@ -1,3 +1,49 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f8a116e462bf6f37d78e64153d2f3aca43f0778b265124e8ca67c33c9b5c4bba
-size 1049
+{
+  "target_col": "ground_truth_class",
+  "label_classes": [
+    "fake_follower",
+    "genuine",
+    "spambot"
+  ],
+  "n_rows_total": 7144,
+  "n_train": 5000,
+  "n_val": 1072,
+  "n_test": 1072,
+  "train_class_balance": {
+    "0": 0.1398,
+    "1": 0.1496,
+    "2": 0.7106
+  },
+  "val_class_balance": {
+    "0": 0.13992537313432835,
+    "1": 0.14925373134328357,
+    "2": 0.710820895522388
+  },
+  "test_class_balance": {
+    "0": 0.13992537313432835,
+    "1": 0.1501865671641791,
+    "2": 0.7098880597014925
+  },
+  "numeric_cols": [
+    "reply_rate",
+    "posts_total_temporal",
+    "span_days",
+    "posts_per_active_day",
+    "posts_per_span_day",
+    "mean_interarrival_hours",
+    "std_interarrival_hours",
+    "burstiness",
+    "weekend_ratio",
+    "_char_len_median",
+    "_char_len_std",
+    "_unique_word_ratio_mean",
+    "_sent_compound_mean",
+    "_num_hashtags_sum",
+    "_num_urls_sum",
+    "_num_mentions_sum",
+    "tfidf_svd_0",
+    "tfidf_svd_1"
+  ],
+  "categorical_cols": [],
+  "random_state": 42
+}

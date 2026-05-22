@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b1b7d6a6279c692f9d2138fb493423691fbd5b4dd1e2bc83bc253be732dbbc32
-size 184
+[
+  {
+    "feature": "posts_per_day",
+    "desc": "Promedio de posts por d\u00eda activo"
+  },
+  {
+    "feature": "reply_rate",
+    "desc": "Tasa de respuestas por post"
+  }
+]

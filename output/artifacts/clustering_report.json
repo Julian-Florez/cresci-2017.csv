@@ -1,3 +1,58 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:afa299901950e1509f8fe826fadeaedf4a50f90d683c26107568d751d6fd75e4
-size 1294
+{
+  "kmeans": {
+    "best_n_clusters": 10,
+    "silhouette_score": 0.34008105614849643,
+    "davies_bouldin_score": 1.0249086407827868,
+    "elbow_analysis": [
+      {
+        "n_clusters": 2,
+        "silhouette": 0.27384964113920085
+      },
+      {
+        "n_clusters": 3,
+        "silhouette": 0.24573813996652955
+      },
+      {
+        "n_clusters": 4,
+        "silhouette": 0.24944164279953876
+      },
+      {
+        "n_clusters": 5,
+        "silhouette": 0.2635633730870541
+      },
+      {
+        "n_clusters": 6,
+        "silhouette": 0.28175208396560336
+      },
+      {
+        "n_clusters": 7,
+        "silhouette": 0.2806383738807567
+      },
+      {
+        "n_clusters": 8,
+        "silhouette": 0.29611646485939
+      },
+      {
+        "n_clusters": 9,
+        "silhouette": 0.3225838709193737
+      },
+      {
+        "n_clusters": 10,
+        "silhouette": 0.34008105614849643
+      }
+    ]
+  },
+  "dbscan": {
+    "n_clusters": 1,
+    "n_noise_points": 1,
+    "noise_ratio": 0.00013997760358342665
+  },
+  "isolation_forest": {
+    "n_anomalies": 715,
+    "anomaly_rate": 0.10008398656215006,
+    "contamination": 0.1
+  },
+  "pca_variance_2d": 0.33528088118867216,
+  "pca_variance_3d": 0.4277936530375387,
+  "n_total_samples": 7144
+}

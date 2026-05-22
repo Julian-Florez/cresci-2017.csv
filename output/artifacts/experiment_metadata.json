@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0fb221d4a3289608159dca1f954715ed49983d7044dcaffc3f94b45843c52be5
-size 312
+{
+  "run_id": "20260522_143308",
+  "export_timestamp": "2026-05-22T15:01:30.201246",
+  "seed": 42,
+  "random_state": 42,
+  "target_col": "ground_truth_class",
+  "n_features": 18,
+  "n_rows_features": 7144,
+  "train_size": 5000,
+  "val_size": 1072,
+  "test_size": 1072,
+  "best_model": "random_forest"
+}

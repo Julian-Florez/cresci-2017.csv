@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef2386593771b1bd633e56452b181bd55aaa281223e01ce3d3c6a271e55e9c4f
-size 161
+{
+  "time_col": "timestamp_parsed",
+  "user_id_col": "user_id",
+  "granularity": "1H",
+  "n_time_bins": 64057,
+  "missing_bins_ratio": 0.723792715686887
+}

@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7027645fb05ed7c892aa6740597bedec7ada8d6a09be3cf5ca1cf2f087151df5
-size 1492
+[
+  {
+    "model": "random_forest",
+    "accuracy": 0.8852611940298507,
+    "precision": 0.8488117652456593,
+    "recall": 0.7883923390910764,
+    "f1": 0.8078738175129977,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": 0.7934497010413706,
+    "cv_f1_macro_std": 0.014883438495244582,
+    "export_timestamp": "2026-05-22T15:01:30.111051",
+    "run_id": "20260522_143308"
+  },
+  {
+    "model": "main_model",
+    "accuracy": 0.6529850746268657,
+    "precision": 0.6832808040933487,
+    "recall": 0.7648151926789875,
+    "f1": 0.6675800366305248,
+    "roc_auc": 0.9433010731272166,
+    "cv_f1_macro_mean": NaN,
+    "cv_f1_macro_std": NaN,
+    "export_timestamp": "2026-05-22T15:01:30.111051",
+    "run_id": "20260522_143308"
+  },
+  {
+    "model": "logistic_regression",
+    "accuracy": 0.8451492537313433,
+    "precision": 0.8553524067490548,
+    "recall": 0.6562795130812042,
+    "f1": 0.6449379642527445,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": 0.6468522939459455,
+    "cv_f1_macro_std": 0.010310632787095717,
+    "export_timestamp": "2026-05-22T15:01:30.111051",
+    "run_id": "20260522_143308"
+  },
+  {
+    "model": "baseline_dummy",
+    "accuracy": 0.539179104477612,
+    "precision": 0.31622781023339824,
+    "recall": 0.31585088814706597,
+    "f1": 0.3160136944249869,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": NaN,
+    "cv_f1_macro_std": NaN,
+    "export_timestamp": "2026-05-22T15:01:30.111051",
+    "run_id": "20260522_143308"
+  }
+]

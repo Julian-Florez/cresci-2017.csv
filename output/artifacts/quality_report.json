@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:948aee0c3fc32242ef38ea84fbae666e69c0fac629b21b159249927b9188550e
-size 345
+{
+  "passed": [
+    "DataFrame shape v\u00e1lido: (7144, 20)",
+    "Bajo porcentaje de nulos: 0.00%",
+    "Target ground_truth_class disponible: 100.0%",
+    "Bajo porcentaje de duplicados: 0.00%",
+    "Modelo tiene m\u00e9todo predict v\u00e1lido",
+    "Todos los features tienen varianza > 0"
+  ],
+  "warnings": [],
+  "failed": []
+}

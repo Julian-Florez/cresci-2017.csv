@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a4f451a36459f89e6c2f89ec148c14ca5f175c9ca8db6ae071245813ab591b8
-size 1136
+[
+  {
+    "model": "random_forest",
+    "accuracy": 0.8852611940298507,
+    "precision": 0.8488117652456593,
+    "recall": 0.7883923390910764,
+    "f1": 0.8078738175129977,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": 0.7934497010413706,
+    "cv_f1_macro_std": 0.014883438495244582
+  },
+  {
+    "model": "main_model",
+    "accuracy": 0.6529850746268657,
+    "precision": 0.6832808040933487,
+    "recall": 0.7648151926789875,
+    "f1": 0.6675800366305248,
+    "roc_auc": 0.9433010731272166,
+    "cv_f1_macro_mean": NaN,
+    "cv_f1_macro_std": NaN
+  },
+  {
+    "model": "logistic_regression",
+    "accuracy": 0.8451492537313433,
+    "precision": 0.8553524067490548,
+    "recall": 0.6562795130812042,
+    "f1": 0.6449379642527445,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": 0.6468522939459455,
+    "cv_f1_macro_std": 0.010310632787095717
+  },
+  {
+    "model": "baseline_dummy",
+    "accuracy": 0.539179104477612,
+    "precision": 0.31622781023339824,
+    "recall": 0.31585088814706597,
+    "f1": 0.3160136944249869,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": NaN,
+    "cv_f1_macro_std": NaN
+  }
+]
