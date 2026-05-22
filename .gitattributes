@@ -1,5 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae984ba461ad3d836aa912e19ed97bb9ee5cbfbad338af19b16ab5c0fd4024b1
-size 222
+# Auto detect text files and perform LF normalization
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
