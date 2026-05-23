@@ -1,6 +1,6 @@
 {
   "n_features_total": 18,
-  "n_rows": 7144,
+  "n_rows": 8136,
   "features": [
     "reply_rate",
     "posts_total_temporal",
@@ -10,18 +10,20 @@
     "mean_interarrival_hours",
     "std_interarrival_hours",
     "burstiness",
+    "peak_hour_share",
     "weekend_ratio",
+    "active_hours",
     "_char_len_median",
     "_char_len_std",
     "_unique_word_ratio_mean",
     "_sent_compound_mean",
     "_num_hashtags_sum",
     "_num_urls_sum",
-    "_num_mentions_sum",
-    "tfidf_svd_0",
-    "tfidf_svd_1"
+    "_num_mentions_sum"
   ],
   "low_variance_removed": [
+    "tfidf_svd_0",
+    "tfidf_svd_1",
     "tfidf_svd_2",
     "tfidf_svd_3",
     "tfidf_svd_4",
@@ -72,26 +74,24 @@
     "tfidf_svd_49"
   ],
   "multicollinearity_removed": [
-    "active_days_x",
-    "posts_total",
+    "hour_entropy",
+    "_word_count_std",
     "_char_len_mean",
+    "posts_total",
     "_word_count_median",
     "active_days_y",
     "peak_weekday_share",
     "active_weekdays",
-    "_word_count_mean",
-    "hour_entropy",
     "weekday_entropy",
+    "active_days_x",
     "posts_per_day",
-    "_word_count_std",
-    "peak_hour_share",
-    "active_hours"
+    "_word_count_mean"
   ],
   "high_corr_pairs": [
     [
       "posts_total",
       "active_days_x",
-      0.9877788075767013
+      0.972081782516968
     ],
     [
       "posts_total",
@@ -101,27 +101,17 @@
     [
       "posts_total",
       "active_days_y",
-      0.9877788075767013
-    ],
-    [
-      "posts_total",
-      "active_hours",
-      0.9678615751358366
+      0.972081782516968
     ],
     [
       "active_days_x",
       "posts_total_temporal",
-      0.9877788075767013
+      0.972081782516968
     ],
     [
       "active_days_x",
       "active_days_y",
       1.0
-    ],
-    [
-      "active_days_x",
-      "active_hours",
-      0.9582197424452547
     ],
     [
       "posts_per_day",
@@ -131,107 +121,67 @@
     [
       "posts_total_temporal",
       "active_days_y",
-      0.9877788075767013
-    ],
-    [
-      "posts_total_temporal",
-      "active_hours",
-      0.9678615751358366
-    ],
-    [
-      "active_days_y",
-      "active_hours",
-      0.9582197424452547
+      0.972081782516968
     ],
     [
       "hour_entropy",
       "weekday_entropy",
-      0.9844177980422434
-    ],
-    [
-      "hour_entropy",
-      "peak_hour_share",
-      0.9780871021813049
-    ],
-    [
-      "hour_entropy",
-      "peak_weekday_share",
-      0.9620554250017674
+      0.9577192448477969
     ],
     [
       "hour_entropy",
       "active_hours",
-      0.9679764583372577
+      0.9558206767865534
     ],
     [
       "hour_entropy",
       "active_weekdays",
-      0.9813421768602862
-    ],
-    [
-      "weekday_entropy",
-      "peak_hour_share",
-      0.9728065999242276
+      0.9703799671491136
     ],
     [
       "weekday_entropy",
       "peak_weekday_share",
-      0.9867213317912435
+      0.9513962796162287
     ],
     [
       "weekday_entropy",
       "active_weekdays",
-      0.9891109960268786
-    ],
-    [
-      "peak_hour_share",
-      "peak_weekday_share",
-      0.9751367569720084
-    ],
-    [
-      "peak_weekday_share",
-      "active_weekdays",
-      0.9551471069969044
+      0.9707217902882448
     ],
     [
       "active_hours",
       "active_weekdays",
-      0.9516760492347567
+      0.954807569242707
     ],
     [
       "_char_len_mean",
       "_char_len_median",
-      0.9901794744684144
+      0.9806117820846012
     ],
     [
       "_char_len_mean",
       "_word_count_mean",
-      0.9714216926853143
+      0.9681035896164366
     ],
     [
       "_char_len_mean",
       "_word_count_median",
-      0.9633909562015344
-    ],
-    [
-      "_char_len_median",
-      "_word_count_mean",
-      0.9610220860403189
+      0.9506028811087116
     ],
     [
       "_char_len_median",
       "_word_count_median",
-      0.9691019886730279
+      0.9655834361146841
     ],
     [
       "_char_len_std",
       "_word_count_std",
-      0.9847520239353151
+      0.9613513687596696
     ],
     [
       "_word_count_mean",
       "_word_count_median",
-      0.9900635713940689
+      0.9793758868289395
     ]
   ],
   "target_col": "ground_truth_class",

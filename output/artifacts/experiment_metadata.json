@@ -1,13 +1,13 @@
 {
-  "run_id": "20260522_143308",
-  "export_timestamp": "2026-05-22T15:01:30.201246",
+  "run_id": "20260523_053650",
+  "export_timestamp": "2026-05-23T06:44:42.486615",
   "seed": 42,
   "random_state": 42,
   "target_col": "ground_truth_class",
   "n_features": 18,
-  "n_rows_features": 7144,
-  "train_size": 5000,
-  "val_size": 1072,
-  "test_size": 1072,
+  "n_rows_features": 8136,
+  "train_size": 5695,
+  "val_size": 1220,
+  "test_size": 1221,
   "best_model": "random_forest"
 }

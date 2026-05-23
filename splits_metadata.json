@@ -5,24 +5,24 @@
     "genuine",
     "spambot"
   ],
-  "n_rows_total": 7144,
-  "n_train": 5000,
-  "n_val": 1072,
-  "n_test": 1072,
+  "n_rows_total": 8136,
+  "n_train": 5695,
+  "n_val": 1220,
+  "n_test": 1221,
   "train_class_balance": {
-    "0": 0.1398,
-    "1": 0.1496,
-    "2": 0.7106
+    "0": 0.20965759438103598,
+    "1": 0.13222124670763827,
+    "2": 0.6581211589113257
   },
   "val_class_balance": {
-    "0": 0.13992537313432835,
-    "1": 0.14925373134328357,
-    "2": 0.710820895522388
+    "0": 0.2098360655737705,
+    "1": 0.1319672131147541,
+    "2": 0.6581967213114754
   },
   "test_class_balance": {
-    "0": 0.13992537313432835,
-    "1": 0.1501865671641791,
-    "2": 0.7098880597014925
+    "0": 0.20966420966420968,
+    "1": 0.13267813267813267,
+    "2": 0.6576576576576577
   },
   "numeric_cols": [
     "reply_rate",
@@ -33,16 +33,16 @@
     "mean_interarrival_hours",
     "std_interarrival_hours",
     "burstiness",
+    "peak_hour_share",
     "weekend_ratio",
+    "active_hours",
     "_char_len_median",
     "_char_len_std",
     "_unique_word_ratio_mean",
     "_sent_compound_mean",
     "_num_hashtags_sum",
     "_num_urls_sum",
-    "_num_mentions_sum",
-    "tfidf_svd_0",
-    "tfidf_svd_1"
+    "_num_mentions_sum"
   ],
   "categorical_cols": [],
   "random_state": 42

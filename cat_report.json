@@ -63,7 +63,7 @@
     7,
     2,
     2,
-    14,
+    15,
     2,
     2,
     6,
@@ -74,354 +74,357 @@
     1,
     2,
     2,
-    110,
-    321,
-    2465,
+    1036,
+    357,
+    2616,
     1,
     3,
-    10,
-    9,
+    48,
+    47,
     4,
-    32,
+    65,
     2,
     2,
     2,
     3,
-    3,
-    3,
-    2,
-    2,
-    2,
     4,
-    4,
-    2,
     5,
+    2,
+    2,
+    2,
+    4,
+    4,
+    2,
+    6,
     4,
     4,
     5,
     5,
     1,
     2,
-    1539,
-    1461
+    5702,
+    5617
   ],
   "top_values": [
     {
-      "": 66515,
-      "otro": 176
+      "": 133038,
+      "otro": 353
     },
     {
-      "": 66647,
-      "otro": 44
+      "": 133303,
+      "otro": 88
     },
     {
-      "": 66515,
-      "genuine": 85,
-      "spambot": 82,
-      "otro": 9
+      "": 133038,
+      "genuine": 178,
+      "spambot": 160,
+      "unable": 15
     },
     {
-      "": 66647,
-      "1.0": 32,
+      "": 133303,
+      "1.0": 55,
+      "otro": 33
+    },
+    {
+      "spambot": 72191,
+      "genuine": 56856,
+      "fake_follower": 3987,
+      "": 357
+    },
+    {
+      "": 133386,
+      "otro": 5
+    },
+    {
+      "": 133038,
+      "traditional spambots": 120,
+      "genuine accounts": 118,
+      "social spambots": 115
+    },
+    {
+      "": 133038,
+      "genuine accounts": 118,
+      "traditional spambots #4": 88,
+      "social spambots #2": 41,
+      "social spambots #1": 38
+    },
+    {
+      "": 133038,
+      "otro": 353
+    },
+    {
+      "": 133038,
+      "otro": 353
+    },
+    {
+      "genuine_accounts__tweets": 56787,
+      "social_spambots_1__tweets": 32200,
+      "social_spambots_3__tweets": 28371,
+      "social_spambots_2__tweets": 8570,
+      "fake_followers__fake_followers__tweets": 3920
+    },
+    {
+      "": 133122,
+      "otro": 269
+    },
+    {
+      "": 133387,
+      "otro": 4
+    },
+    {
+      "": 133122,
+      "elite": 75,
+      "clixsense": 71,
+      "neodev": 66,
+      "indivillagetest": 37
+    },
+    {
+      "": 133387,
+      "otro": 4
+    },
+    {
+      "": 133389,
+      "otro": 2
+    },
+    {
+      "": 133387,
+      "otro": 4
+    },
+    {
+      "": 133379,
       "otro": 12
     },
     {
-      "spambot": 36093,
-      "genuine": 28427,
-      "fake_follower": 1993,
-      "": 178
+      "": 133391
     },
     {
-      "": 66689,
-      "otro": 2
+      "otro": 133034,
+      "": 357
     },
     {
-      "": 66515,
-      "genuine accounts": 66,
-      "traditional spambots": 64,
-      "social spambots": 46
+      "otro": 133034,
+      "": 357
     },
     {
-      "": 66515,
-      "genuine accounts": 66,
-      "traditional spambots #4": 47,
-      "social spambots #2": 19,
-      "social spambots #1": 18
+      "otro": 118683,
+      "": 886,
+      "ci sedemmo dalla parte del torto, visto che tutti gli altri posti erano occupati... anonimo": 107,
+      "never dance in a puddle when there's a hole in your shoe (it's always best to take your shoes off first). --&gt; john d. rhodes": 26,
+      "la rete \u00e8 un gioco... e tu stai giocando!  piero tofy": 24
     },
     {
-      "": 66515,
-      "otro": 176
+      "<a href=\"http://tweetadder.com\" rel=\"nofollow\">tweetadder v4</a>": 27141,
+      "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">twitter for iphone</a>": 24059,
+      "<a href=\"http://twitter.com\" rel=\"nofollow\">twitter web client</a>": 18146,
+      "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">twitter for android</a>": 10206,
+      "web": 3657
     },
     {
-      "": 66515,
-      "otro": 176
+      "otro": 10748,
+      "": 642,
+      "225618739.0": 88,
+      "198700618.0": 83,
+      "198270955.0": 81
     },
     {
-      "genuine_accounts__tweets": 28393,
-      "social_spambots_1__tweets": 16100,
-      "social_spambots_3__tweets": 14185,
-      "social_spambots_2__tweets": 4285,
-      "fake_followers__fake_followers__tweets": 1960
+      "1.0": 133391
     },
     {
-      "": 66557,
-      "otro": 134
+      "0.0": 113657,
+      "otro": 19092,
+      "": 642
     },
     {
-      "": 66689,
-      "otro": 2
+      "0.0": 111827,
+      "otro": 20236,
+      "": 642,
+      "181561712.0": 74,
+      "2654099827.0": 35
     },
     {
-      "": 66557,
-      "clixsense": 38,
-      "elite": 37,
-      "neodev": 30,
-      "indivillagetest": 20
+      "": 112474,
+      "otro": 20231,
+      "harry_styles": 74,
+      "fiktionist": 35,
+      "justinbieber": 26
     },
     {
-      "": 66689,
-      "otro": 2
+      "0.0": 112800,
+      "otro": 15984,
+      "": 4562,
+      "1.0": 45
     },
     {
-      "": 66690,
-      "otro": 1
+      "": 130834,
+      "otro": 1036,
+      "los angeles, ca": 118,
+      "trinidad and tobago": 73,
+      "edmond, ok": 73
     },
     {
-      "": 66689,
-      "otro": 2
+      "otro": 132967,
+      "": 424
     },
     {
-      "": 66684,
-      "otro": 7
+      "": 133106,
+      "otro": 285
     },
     {
-      "": 66691
+      "": 133106,
+      "otro": 285
     },
     {
-      "otro": 66513,
-      "": 178
+      "": 133323,
+      "otro": 48,
+      "https://t.co/dbywt45hzj": 20
     },
     {
-      "otro": 66513,
-      "": 178
+      "": 133126,
+      "en": 229,
+      "otro": 18,
+      "it": 18
     },
     {
-      "otro": 65016,
-      "": 448,
-      "ci sedemmo dalla parte del torto, visto che tutti gli altri posti erano occupati... anonimo": 47,
-      "these aren't the droids you're looking fore. - obi-wan, star wars": 14,
-      "always laugh heartily at your boss' jokes - he may be giving you a loyalty check.": 14
+      "": 133286,
+      "otro": 47,
+      "eastern time (us & canada)": 23,
+      "pacific time (us & canada)": 18,
+      "athens": 17
     },
     {
-      "<a href=\"http://tweetadder.com\" rel=\"nofollow\">tweetadder v4</a>": 13577,
-      "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">twitter for iphone</a>": 12098,
-      "<a href=\"http://twitter.com\" rel=\"nofollow\">twitter web client</a>": 9017,
-      "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">twitter for android</a>": 5124,
-      "web": 1829
+      "": 133248,
+      "otro": 143
     },
     {
-      "otro": 6383,
-      "": 318,
-      "198270955.0": 50,
-      "225618739.0": 45,
-      "2268441811.0": 45
+      "": 133106,
+      "otro": 285
     },
     {
-      "1.0": 66691
+      "": 133293,
+      "otro": 98
     },
     {
-      "0.0": 56771,
-      "otro": 9602,
-      "": 318
+      "": 133126,
+      "otro": 170,
+      "https://si0.twimg.com/images/themes/theme1/bg.png": 59,
+      "https://abs.twimg.com/images/themes/theme1/bg.png": 36
     },
     {
-      "0.0": 55865,
-      "otro": 10398,
-      "": 318,
-      "181561712.0": 37,
-      "2654099827.0": 14
-    },
-    {
-      "": 56185,
-      "otro": 10396,
-      "harry_styles": 37,
-      "fiktionist": 14,
-      "real_liam_payne": 13
-    },
-    {
-      "0.0": 56394,
-      "otro": 7996,
-      "": 2278,
-      "1.0": 23
-    },
-    {
-      "": 65422,
-      "otro": 715,
-      "los angeles, ca": 56,
-      "edmond, ok": 40,
-      "san jose, ca": 35
-    },
-    {
-      "otro": 66480,
-      "": 211
-    },
-    {
-      "": 66551,
-      "otro": 140
-    },
-    {
-      "": 66551,
-      "otro": 140
-    },
-    {
-      "": 66658,
-      "otro": 23,
-      "https://t.co/dbywt45hzj": 10
-    },
-    {
-      "": 66561,
-      "en": 113,
-      "otro": 17
-    },
-    {
-      "": 66639,
-      "otro": 40,
-      "eastern time (us & canada)": 12
-    },
-    {
-      "": 66619,
-      "otro": 72
-    },
-    {
-      "": 66551,
-      "otro": 140
-    },
-    {
-      "": 66643,
-      "otro": 48
-    },
-    {
-      "": 66561,
-      "otro": 82,
-      "https://si0.twimg.com/images/themes/theme1/bg.png": 30,
-      "https://abs.twimg.com/images/themes/theme1/bg.png": 18
-    },
-    {
-      "": 66561,
-      "333333": 102,
-      "otro": 17,
-      "0": 11
-    },
-    {
-      "": 66561,
-      "otro": 130
-    },
-    {
-      "": 66561,
-      "c0deed": 52,
-      "ffffff": 44,
-      "otro": 19,
-      "000000": 15
-    },
-    {
-      "": 66561,
-      "ddeef6": 91,
-      "otro": 29,
-      "407db0": 10
-    },
-    {
-      "": 66551,
-      "otro": 91,
-      "http://a0.twimg.com/images/themes/theme1/bg.png": 31,
-      "http://abs.twimg.com/images/themes/theme1/bg.png": 18
-    },
-    {
-      "": 66561,
-      "c0deed": 49,
+      "": 133126,
+      "333333": 207,
       "otro": 35,
-      "0000ff": 35,
-      "253956": 11
+      "0": 23
     },
     {
-      "": 66561,
-      "0084b4": 51,
-      "0000ff": 36,
-      "otro": 32,
-      "4a913c": 11
+      "": 133126,
+      "otro": 265
     },
     {
-      "": 66691
+      "": 133126,
+      "c0deed": 101,
+      "ffffff": 92,
+      "000000": 32,
+      "otro": 30
     },
     {
-      "": 66607,
-      "otro": 84
+      "": 133126,
+      "ddeef6": 184,
+      "otro": 61,
+      "407db0": 20
     },
     {
-      "otro": 46213,
-      "": 2138,
-      "2014-04-16 23:57:18": 21,
-      "2014-04-16 23:57:56": 21,
-      "2014-04-16 23:57:53": 21
+      "": 133106,
+      "otro": 189,
+      "http://a0.twimg.com/images/themes/theme1/bg.png": 60,
+      "http://abs.twimg.com/images/themes/theme1/bg.png": 36
     },
     {
-      "otro": 46125,
-      "": 2171,
-      "0000-00-00 00:00:00": 1450,
-      "2014-11-13 06:40:54": 19,
-      "2014-11-13 06:51:13": 18
+      "": 133126,
+      "c0deed": 98,
+      "otro": 75,
+      "0000ff": 70,
+      "253956": 22
+    },
+    {
+      "": 133126,
+      "0084b4": 99,
+      "otro": 73,
+      "0000ff": 72,
+      "4a913c": 21
+    },
+    {
+      "": 133391
+    },
+    {
+      "": 133225,
+      "otro": 166
+    },
+    {
+      "otro": 32812,
+      "": 4277,
+      "2014-04-16 23:57:18": 43,
+      "2014-04-16 23:57:53": 42,
+      "2014-04-16 23:57:56": 41
+    },
+    {
+      "otro": 32741,
+      "": 4344,
+      "0000-00-00 00:00:00": 2901,
+      "2014-11-13 06:40:54": 39,
+      "2014-11-13 06:21:54": 37
     }
   ],
   "n_invalid": [
-    66515,
-    66647,
-    66515,
-    66647,
-    178,
-    66689,
-    66515,
-    66515,
-    66515,
-    66515,
+    133038,
+    133303,
+    133038,
+    133303,
+    357,
+    133386,
+    133038,
+    133038,
+    133038,
+    133038,
     0,
-    66557,
-    66689,
-    66557,
-    66689,
-    66690,
-    66689,
-    66684,
-    66691,
-    178,
-    178,
-    448,
-    318,
-    318,
+    133122,
+    133387,
+    133122,
+    133387,
+    133389,
+    133387,
+    133379,
+    133391,
+    357,
+    357,
+    886,
+    642,
+    642,
     0,
-    318,
-    318,
-    56185,
-    2278,
-    65422,
-    211,
-    66551,
-    66551,
-    66658,
-    66561,
-    66639,
-    66619,
-    66551,
-    66643,
-    66561,
-    66561,
-    66561,
-    66561,
-    66561,
-    66551,
-    66561,
-    66561,
-    66691,
-    66607,
-    2138,
-    2171
+    642,
+    642,
+    112474,
+    4562,
+    130834,
+    424,
+    133106,
+    133106,
+    133323,
+    133126,
+    133286,
+    133248,
+    133106,
+    133293,
+    133126,
+    133126,
+    133126,
+    133126,
+    133126,
+    133106,
+    133126,
+    133126,
+    133391,
+    133225,
+    4277,
+    4344
   ]
 }

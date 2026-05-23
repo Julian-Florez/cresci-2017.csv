@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:438bc6b0ae4d655a5027fbdc126d61065750bfacc47f26a829dc7946c4fa050e
-size 310
+
+# Notas de reproducibilidad
+- Seed global fijado en 42
+- Configuración de cache y artefactos en carpetas dedicadas
+- Logging de cada run en archivo único
+- Se recomienda ejecutar el notebook de arriba hacia abajo sin saltos
+- Versiones de librerías y entorno registradas en la sección de configuración

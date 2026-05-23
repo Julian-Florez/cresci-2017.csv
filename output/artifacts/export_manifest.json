@@ -1,6 +1,6 @@
 {
-  "run_id": "20260522_143308",
-  "export_timestamp": "2026-05-22T15:01:30.202771",
+  "run_id": "20260523_053650",
+  "export_timestamp": "2026-05-23T06:44:42.488120",
   "artifacts": {
     "metrics_csv": "output\\artifacts\\metrics.csv",
     "metrics_json": "output\\artifacts\\metrics.json",

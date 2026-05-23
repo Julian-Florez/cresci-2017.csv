@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:87969434006168b1c81036787077274561c1a5b6b9115bb0feda995cfb724865
-size 249
+artifacts_dir: output\artifacts
+cache_dir: output\cache
+notebook: ipykernel_launcher.py
+python_version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929
+  64 bit (AMD64)]
+run_timestamp: '2026-05-23T05:36:50.358898'
+seed: 42

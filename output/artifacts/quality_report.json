@@ -1,6 +1,6 @@
 {
   "passed": [
-    "DataFrame shape v\u00e1lido: (7144, 20)",
+    "DataFrame shape v\u00e1lido: (8136, 20)",
     "Bajo porcentaje de nulos: 0.00%",
     "Target ground_truth_class disponible: 100.0%",
     "Bajo porcentaje de duplicados: 0.00%",

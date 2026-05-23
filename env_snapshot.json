@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:534410def0a83e038b52e46014e92a7607b877ead7431b45dfc302fd3b69baa1
-size 314
+{
+  "python_version": "3.10.11",
+  "os": "Windows",
+  "os_version": "10.0.26200",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "ram_gb": null,
+  "working_dir": "c:\\Users\\Julian\\Documents\\Uni\\Seminario de Investigacion\\dataset\\cresci-2017.csv",
+  "timestamp": "20260523_053650"
+}

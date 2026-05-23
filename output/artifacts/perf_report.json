@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-05-22T15:01:30.284101",
-  "memory_current_gb": 0.5563163757324219,
-  "memory_available_gb": 3.8434982299804688,
+  "timestamp": "2026-05-23T06:44:42.634590",
+  "memory_current_gb": 1.345489501953125,
+  "memory_available_gb": 6.881690979003906,
   "memory_limit_gb": 8.0,
   "stages": {},
   "compression": {
-    "original_size_mb": 1.8757753372192383,
-    "compressed_size_mb": 0.875645637512207,
-    "compression_ratio": 0.46681797128771113,
+    "original_size_mb": 2.139348030090332,
+    "compressed_size_mb": 0.981532096862793,
+    "compression_ratio": 0.4587996357102068,
     "target_achieved": "True"
   }
 }

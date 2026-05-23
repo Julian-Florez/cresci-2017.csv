@@ -1,3 +1,903 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6ec43a9e0feb8716062f5cfec6e677db1db47dd7857e78201a3cead9c9ad5898
-size 24514
+{
+  "schema_profile": {
+    "column_types": {
+      "crowdflower_id": "object",
+      "trusted_answers": "float64",
+      "last_answer_at": "object",
+      "class": "object",
+      "class_confidence": "object",
+      "ground_truth_class": "object",
+      "comments": "object",
+      "account_type": "object",
+      "dataset": "object",
+      "twitter_user_id": "object",
+      "twitter_screen_name": "object",
+      "source_dataset": "object",
+      "contributor_id": "object",
+      "external_id": "object",
+      "answers_count": "float64",
+      "gold_count": "float64",
+      "missed_gold_count": "float64",
+      "channel": "object",
+      "contributor_country": "object",
+      "contributor_city": "object",
+      "contributor_last_ip": "object",
+      "trust_overall": "float64",
+      "submission_rate": "float64",
+      "trust": "float64",
+      "comment": "object",
+      "unnamed: 0": "object",
+      "created_at": "object",
+      "id": "object",
+      "text": "object",
+      "source": "object",
+      "user_id": "object",
+      "truncated": "float64",
+      "in_reply_to_status_id": "object",
+      "in_reply_to_user_id": "object",
+      "in_reply_to_screen_name": "object",
+      "retweeted_status_id": "object",
+      "geo": "float64",
+      "place": "object",
+      "contributors": "float64",
+      "retweet_count": "float64",
+      "reply_count": "float64",
+      "favorite_count": "float64",
+      "favorited": "float64",
+      "retweeted": "float64",
+      "possibly_sensitive": "float64",
+      "num_hashtags": "float64",
+      "num_urls": "float64",
+      "num_mentions": "float64",
+      "timestamp": "object",
+      "name": "object",
+      "screen_name": "object",
+      "statuses_count": "float64",
+      "followers_count": "float64",
+      "friends_count": "float64",
+      "favourites_count": "float64",
+      "listed_count": "float64",
+      "url": "object",
+      "lang": "object",
+      "time_zone": "object",
+      "location": "object",
+      "default_profile": "float64",
+      "default_profile_image": "float64",
+      "geo_enabled": "float64",
+      "profile_image_url": "object",
+      "profile_banner_url": "object",
+      "profile_use_background_image": "float64",
+      "profile_background_image_url_https": "object",
+      "profile_text_color": "object",
+      "profile_image_url_https": "object",
+      "profile_sidebar_border_color": "object",
+      "profile_background_tile": "float64",
+      "profile_sidebar_fill_color": "object",
+      "profile_background_image_url": "object",
+      "profile_background_color": "object",
+      "profile_link_color": "object",
+      "utc_offset": "float64",
+      "is_translator": "float64",
+      "follow_request_sent": "float64",
+      "protected": "float64",
+      "verified": "float64",
+      "notifications": "float64",
+      "description": "object",
+      "contributors_enabled": "float64",
+      "following": "float64",
+      "updated": "object",
+      "crawled_at": "object",
+      "test_set_1": "float64",
+      "test_set_2": "float64"
+    },
+    "n_columns": 88,
+    "n_rows": 133391,
+    "columns": [
+      "crowdflower_id",
+      "trusted_answers",
+      "last_answer_at",
+      "class",
+      "class_confidence",
+      "ground_truth_class",
+      "comments",
+      "account_type",
+      "dataset",
+      "twitter_user_id",
+      "twitter_screen_name",
+      "source_dataset",
+      "contributor_id",
+      "external_id",
+      "answers_count",
+      "gold_count",
+      "missed_gold_count",
+      "channel",
+      "contributor_country",
+      "contributor_city",
+      "contributor_last_ip",
+      "trust_overall",
+      "submission_rate",
+      "trust",
+      "comment",
+      "unnamed: 0",
+      "created_at",
+      "id",
+      "text",
+      "source",
+      "user_id",
+      "truncated",
+      "in_reply_to_status_id",
+      "in_reply_to_user_id",
+      "in_reply_to_screen_name",
+      "retweeted_status_id",
+      "geo",
+      "place",
+      "contributors",
+      "retweet_count",
+      "reply_count",
+      "favorite_count",
+      "favorited",
+      "retweeted",
+      "possibly_sensitive",
+      "num_hashtags",
+      "num_urls",
+      "num_mentions",
+      "timestamp",
+      "name",
+      "screen_name",
+      "statuses_count",
+      "followers_count",
+      "friends_count",
+      "favourites_count",
+      "listed_count",
+      "url",
+      "lang",
+      "time_zone",
+      "location",
+      "default_profile",
+      "default_profile_image",
+      "geo_enabled",
+      "profile_image_url",
+      "profile_banner_url",
+      "profile_use_background_image",
+      "profile_background_image_url_https",
+      "profile_text_color",
+      "profile_image_url_https",
+      "profile_sidebar_border_color",
+      "profile_background_tile",
+      "profile_sidebar_fill_color",
+      "profile_background_image_url",
+      "profile_background_color",
+      "profile_link_color",
+      "utc_offset",
+      "is_translator",
+      "follow_request_sent",
+      "protected",
+      "verified",
+      "notifications",
+      "description",
+      "contributors_enabled",
+      "following",
+      "updated",
+      "crawled_at",
+      "test_set_1",
+      "test_set_2"
+    ],
+    "nulls": {
+      "crowdflower_id": 0,
+      "trusted_answers": 133303,
+      "last_answer_at": 0,
+      "class": 0,
+      "class_confidence": 0,
+      "ground_truth_class": 0,
+      "comments": 0,
+      "account_type": 0,
+      "dataset": 0,
+      "twitter_user_id": 0,
+      "twitter_screen_name": 0,
+      "source_dataset": 0,
+      "contributor_id": 0,
+      "external_id": 0,
+      "answers_count": 133387,
+      "gold_count": 133387,
+      "missed_gold_count": 133387,
+      "channel": 0,
+      "contributor_country": 0,
+      "contributor_city": 0,
+      "contributor_last_ip": 0,
+      "trust_overall": 133387,
+      "submission_rate": 133387,
+      "trust": 133126,
+      "comment": 0,
+      "unnamed: 0": 0,
+      "created_at": 0,
+      "id": 0,
+      "text": 0,
+      "source": 0,
+      "user_id": 0,
+      "truncated": 133374,
+      "in_reply_to_status_id": 0,
+      "in_reply_to_user_id": 0,
+      "in_reply_to_screen_name": 0,
+      "retweeted_status_id": 0,
+      "geo": 133391,
+      "place": 0,
+      "contributors": 133391,
+      "retweet_count": 642,
+      "reply_count": 642,
+      "favorite_count": 642,
+      "favorited": 133391,
+      "retweeted": 133391,
+      "possibly_sensitive": 132847,
+      "num_hashtags": 642,
+      "num_urls": 642,
+      "num_mentions": 642,
+      "timestamp": 0,
+      "name": 0,
+      "screen_name": 0,
+      "statuses_count": 133106,
+      "followers_count": 133106,
+      "friends_count": 133106,
+      "favourites_count": 133106,
+      "listed_count": 133106,
+      "url": 0,
+      "lang": 0,
+      "time_zone": 0,
+      "location": 0,
+      "default_profile": 133302,
+      "default_profile_image": 133390,
+      "geo_enabled": 133321,
+      "profile_image_url": 0,
+      "profile_banner_url": 0,
+      "profile_use_background_image": 133135,
+      "profile_background_image_url_https": 0,
+      "profile_text_color": 0,
+      "profile_image_url_https": 0,
+      "profile_sidebar_border_color": 0,
+      "profile_background_tile": 133286,
+      "profile_sidebar_fill_color": 0,
+      "profile_background_image_url": 0,
+      "profile_background_color": 0,
+      "profile_link_color": 0,
+      "utc_offset": 133286,
+      "is_translator": 133391,
+      "follow_request_sent": 133391,
+      "protected": 133390,
+      "verified": 133391,
+      "notifications": 133391,
+      "description": 0,
+      "contributors_enabled": 133391,
+      "following": 133391,
+      "updated": 0,
+      "crawled_at": 0,
+      "test_set_1": 133303,
+      "test_set_2": 133313
+    },
+    "nulls_pct": {
+      "crowdflower_id": 0.0,
+      "trusted_answers": 0.9993,
+      "last_answer_at": 0.0,
+      "class": 0.0,
+      "class_confidence": 0.0,
+      "ground_truth_class": 0.0,
+      "comments": 0.0,
+      "account_type": 0.0,
+      "dataset": 0.0,
+      "twitter_user_id": 0.0,
+      "twitter_screen_name": 0.0,
+      "source_dataset": 0.0,
+      "contributor_id": 0.0,
+      "external_id": 0.0,
+      "answers_count": 1.0,
+      "gold_count": 1.0,
+      "missed_gold_count": 1.0,
+      "channel": 0.0,
+      "contributor_country": 0.0,
+      "contributor_city": 0.0,
+      "contributor_last_ip": 0.0,
+      "trust_overall": 1.0,
+      "submission_rate": 1.0,
+      "trust": 0.998,
+      "comment": 0.0,
+      "unnamed: 0": 0.0,
+      "created_at": 0.0,
+      "id": 0.0,
+      "text": 0.0,
+      "source": 0.0,
+      "user_id": 0.0,
+      "truncated": 0.9999,
+      "in_reply_to_status_id": 0.0,
+      "in_reply_to_user_id": 0.0,
+      "in_reply_to_screen_name": 0.0,
+      "retweeted_status_id": 0.0,
+      "geo": 1.0,
+      "place": 0.0,
+      "contributors": 1.0,
+      "retweet_count": 0.0048,
+      "reply_count": 0.0048,
+      "favorite_count": 0.0048,
+      "favorited": 1.0,
+      "retweeted": 1.0,
+      "possibly_sensitive": 0.9959,
+      "num_hashtags": 0.0048,
+      "num_urls": 0.0048,
+      "num_mentions": 0.0048,
+      "timestamp": 0.0,
+      "name": 0.0,
+      "screen_name": 0.0,
+      "statuses_count": 0.9979,
+      "followers_count": 0.9979,
+      "friends_count": 0.9979,
+      "favourites_count": 0.9979,
+      "listed_count": 0.9979,
+      "url": 0.0,
+      "lang": 0.0,
+      "time_zone": 0.0,
+      "location": 0.0,
+      "default_profile": 0.9993,
+      "default_profile_image": 1.0,
+      "geo_enabled": 0.9995,
+      "profile_image_url": 0.0,
+      "profile_banner_url": 0.0,
+      "profile_use_background_image": 0.9981,
+      "profile_background_image_url_https": 0.0,
+      "profile_text_color": 0.0,
+      "profile_image_url_https": 0.0,
+      "profile_sidebar_border_color": 0.0,
+      "profile_background_tile": 0.9992,
+      "profile_sidebar_fill_color": 0.0,
+      "profile_background_image_url": 0.0,
+      "profile_background_color": 0.0,
+      "profile_link_color": 0.0,
+      "utc_offset": 0.9992,
+      "is_translator": 1.0,
+      "follow_request_sent": 1.0,
+      "protected": 1.0,
+      "verified": 1.0,
+      "notifications": 1.0,
+      "description": 0.0,
+      "contributors_enabled": 1.0,
+      "following": 1.0,
+      "updated": 0.0,
+      "crawled_at": 0.0,
+      "test_set_1": 0.9993,
+      "test_set_2": 0.9994
+    },
+    "n_duplicates": 0,
+    "cardinality": {
+      "crowdflower_id": 266,
+      "trusted_answers": 1,
+      "last_answer_at": 85,
+      "class": 4,
+      "class_confidence": 33,
+      "ground_truth_class": 4,
+      "comments": 6,
+      "account_type": 4,
+      "dataset": 7,
+      "twitter_user_id": 266,
+      "twitter_screen_name": 266,
+      "source_dataset": 18,
+      "contributor_id": 153,
+      "external_id": 5,
+      "answers_count": 4,
+      "gold_count": 4,
+      "missed_gold_count": 4,
+      "channel": 10,
+      "contributor_country": 4,
+      "contributor_city": 3,
+      "contributor_last_ip": 4,
+      "trust_overall": 4,
+      "submission_rate": 2,
+      "trust": 35,
+      "comment": 11,
+      "unnamed: 0": 1,
+      "created_at": 132590,
+      "id": 133035,
+      "text": 102253,
+      "source": 626,
+      "user_id": 8137,
+      "truncated": 1,
+      "in_reply_to_status_id": 19088,
+      "in_reply_to_user_id": 16003,
+      "in_reply_to_screen_name": 15997,
+      "retweeted_status_id": 15831,
+      "geo": 0,
+      "place": 544,
+      "contributors": 0,
+      "retweet_count": 3602,
+      "reply_count": 28,
+      "favorite_count": 139,
+      "favorited": 0,
+      "retweeted": 0,
+      "possibly_sensitive": 1,
+      "num_hashtags": 17,
+      "num_urls": 5,
+      "num_mentions": 15,
+      "timestamp": 132523,
+      "name": 285,
+      "screen_name": 286,
+      "statuses_count": 179,
+      "followers_count": 157,
+      "friends_count": 199,
+      "favourites_count": 76,
+      "listed_count": 30,
+      "url": 48,
+      "lang": 11,
+      "time_zone": 31,
+      "location": 138,
+      "default_profile": 1,
+      "default_profile_image": 1,
+      "geo_enabled": 1,
+      "profile_image_url": 286,
+      "profile_banner_url": 99,
+      "profile_use_background_image": 1,
+      "profile_background_image_url_https": 158,
+      "profile_text_color": 18,
+      "profile_image_url_https": 266,
+      "profile_sidebar_border_color": 23,
+      "profile_background_tile": 1,
+      "profile_sidebar_fill_color": 24,
+      "profile_background_image_url": 171,
+      "profile_background_color": 34,
+      "profile_link_color": 49,
+      "utc_offset": 14,
+      "is_translator": 0,
+      "follow_request_sent": 0,
+      "protected": 1,
+      "verified": 0,
+      "notifications": 0,
+      "description": 166,
+      "contributors_enabled": 0,
+      "following": 0,
+      "updated": 17537,
+      "crawled_at": 17368,
+      "test_set_1": 2,
+      "test_set_2": 2
+    },
+    "numeric_ranges": {
+      "trusted_answers": {
+        "min": 3.0,
+        "max": 3.0,
+        "mean": 3.0,
+        "std": 0.0
+      },
+      "answers_count": {
+        "min": 35.0,
+        "max": 100.0,
+        "mean": 66.25,
+        "std": 31.191612120354836
+      },
+      "gold_count": {
+        "min": 11.0,
+        "max": 25.0,
+        "mean": 17.5,
+        "std": 6.60807586719967
+      },
+      "missed_gold_count": {
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 2.5,
+        "std": 1.2909944487358056
+      },
+      "trust_overall": {
+        "min": 0.7273,
+        "max": 0.9231,
+        "mean": 0.8488,
+        "std": 0.08849892654716218
+      },
+      "submission_rate": {
+        "min": 18.0,
+        "max": 300.0,
+        "mean": 229.5,
+        "std": 141.0
+      },
+      "trust": {
+        "min": 0.7273,
+        "max": 1.0,
+        "mean": 0.8933222641509434,
+        "std": 0.060966868754785936
+      },
+      "truncated": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "geo": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "contributors": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "retweet_count": {
+        "min": 0.0,
+        "max": 3350106.0,
+        "mean": 398.21438202924315,
+        "std": 11807.572898324765
+      },
+      "reply_count": {
+        "min": 0.0,
+        "max": 381.0,
+        "mean": 0.011759033966357562,
+        "std": 1.2109219746605902
+      },
+      "favorite_count": {
+        "min": 0.0,
+        "max": 15262.0,
+        "mean": 1.4876571574927118,
+        "std": 83.36556243032207
+      },
+      "favorited": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "retweeted": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "possibly_sensitive": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "num_hashtags": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 0.1550218834040181,
+        "std": 0.5960163746816327
+      },
+      "num_urls": {
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.19860036610445275,
+        "std": 0.40531709482709083
+      },
+      "num_mentions": {
+        "min": 0.0,
+        "max": 14.0,
+        "mean": 0.3894191293343076,
+        "std": 0.7249288771026963
+      },
+      "statuses_count": {
+        "min": 0.0,
+        "max": 107367.0,
+        "mean": 4966.115789473684,
+        "std": 14744.067258666955
+      },
+      "followers_count": {
+        "min": 0.0,
+        "max": 30095.0,
+        "mean": 473.1438596491228,
+        "std": 2033.8808123410267
+      },
+      "friends_count": {
+        "min": 0.0,
+        "max": 6942.0,
+        "mean": 456.0561403508772,
+        "std": 821.1159769127554
+      },
+      "favourites_count": {
+        "min": 0.0,
+        "max": 92966.0,
+        "mean": 1294.4280701754385,
+        "std": 6492.488360008288
+      },
+      "listed_count": {
+        "min": 0.0,
+        "max": 292.0,
+        "mean": 4.575438596491228,
+        "std": 20.445877375538263
+      },
+      "default_profile": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "default_profile_image": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": NaN
+      },
+      "geo_enabled": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "profile_use_background_image": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "profile_background_tile": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "utc_offset": {
+        "min": -39600.0,
+        "max": 32400.0,
+        "mean": -9068.57142857143,
+        "std": 17810.213763055013
+      },
+      "is_translator": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "follow_request_sent": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "protected": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "std": NaN
+      },
+      "verified": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "notifications": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "contributors_enabled": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "following": {
+        "min": NaN,
+        "max": NaN,
+        "mean": NaN,
+        "std": NaN
+      },
+      "test_set_1": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.48863636363636365,
+        "std": 0.502735463945467
+      },
+      "test_set_2": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.24358974358974358,
+        "std": 0.43202625689497925
+      }
+    },
+    "unique_keys": {
+      "crowdflower_id": false,
+      "class_confidence": false,
+      "twitter_user_id": false,
+      "contributor_id": false,
+      "external_id": false,
+      "id": false,
+      "user_id": false,
+      "in_reply_to_status_id": false,
+      "in_reply_to_user_id": false,
+      "retweeted_status_id": false,
+      "profile_sidebar_border_color": false,
+      "profile_sidebar_fill_color": false
+    },
+    "mixed_types": {
+      "crowdflower_id": {
+        "str": 133391
+      },
+      "last_answer_at": {
+        "str": 133391
+      },
+      "class": {
+        "str": 133391
+      },
+      "class_confidence": {
+        "str": 133391
+      },
+      "ground_truth_class": {
+        "str": 133391
+      },
+      "comments": {
+        "str": 133391
+      },
+      "account_type": {
+        "str": 133391
+      },
+      "dataset": {
+        "str": 133391
+      },
+      "twitter_user_id": {
+        "str": 133391
+      },
+      "twitter_screen_name": {
+        "str": 133391
+      },
+      "source_dataset": {
+        "str": 133391
+      },
+      "contributor_id": {
+        "str": 133391
+      },
+      "external_id": {
+        "str": 133391
+      },
+      "channel": {
+        "str": 133391
+      },
+      "contributor_country": {
+        "str": 133391
+      },
+      "contributor_city": {
+        "str": 133391
+      },
+      "contributor_last_ip": {
+        "str": 133391
+      },
+      "comment": {
+        "str": 133391
+      },
+      "unnamed: 0": {
+        "str": 133391
+      },
+      "created_at": {
+        "str": 133391
+      },
+      "id": {
+        "str": 133391
+      },
+      "text": {
+        "str": 133391
+      },
+      "source": {
+        "str": 133391
+      },
+      "user_id": {
+        "str": 133391
+      },
+      "in_reply_to_status_id": {
+        "str": 133391
+      },
+      "in_reply_to_user_id": {
+        "str": 133391
+      },
+      "in_reply_to_screen_name": {
+        "str": 133391
+      },
+      "retweeted_status_id": {
+        "str": 133391
+      },
+      "place": {
+        "str": 133391
+      },
+      "timestamp": {
+        "str": 133391
+      },
+      "name": {
+        "str": 133391
+      },
+      "screen_name": {
+        "str": 133391
+      },
+      "url": {
+        "str": 133391
+      },
+      "lang": {
+        "str": 133391
+      },
+      "time_zone": {
+        "str": 133391
+      },
+      "location": {
+        "str": 133391
+      },
+      "profile_image_url": {
+        "str": 133391
+      },
+      "profile_banner_url": {
+        "str": 133391
+      },
+      "profile_background_image_url_https": {
+        "str": 133391
+      },
+      "profile_text_color": {
+        "str": 133391
+      },
+      "profile_image_url_https": {
+        "str": 133391
+      },
+      "profile_sidebar_border_color": {
+        "str": 133391
+      },
+      "profile_sidebar_fill_color": {
+        "str": 133391
+      },
+      "profile_background_image_url": {
+        "str": 133391
+      },
+      "profile_background_color": {
+        "str": 133391
+      },
+      "profile_link_color": {
+        "str": 133391
+      },
+      "description": {
+        "str": 133391
+      },
+      "updated": {
+        "str": 133391
+      },
+      "crawled_at": {
+        "str": 133391
+      }
+    }
+  },
+  "problems": [
+    "Alta proporci\u00f3n de nulos en trusted_answers: 99.9%",
+    "Alta proporci\u00f3n de nulos en answers_count: 100.0%",
+    "Alta proporci\u00f3n de nulos en gold_count: 100.0%",
+    "Alta proporci\u00f3n de nulos en missed_gold_count: 100.0%",
+    "Alta proporci\u00f3n de nulos en trust_overall: 100.0%",
+    "Alta proporci\u00f3n de nulos en submission_rate: 100.0%",
+    "Alta proporci\u00f3n de nulos en trust: 99.8%",
+    "Alta proporci\u00f3n de nulos en truncated: 100.0%",
+    "Alta proporci\u00f3n de nulos en geo: 100.0%",
+    "Alta proporci\u00f3n de nulos en contributors: 100.0%",
+    "Alta proporci\u00f3n de nulos en favorited: 100.0%",
+    "Alta proporci\u00f3n de nulos en retweeted: 100.0%",
+    "Alta proporci\u00f3n de nulos en possibly_sensitive: 99.6%",
+    "Alta proporci\u00f3n de nulos en statuses_count: 99.8%",
+    "Alta proporci\u00f3n de nulos en followers_count: 99.8%",
+    "Alta proporci\u00f3n de nulos en friends_count: 99.8%",
+    "Alta proporci\u00f3n de nulos en favourites_count: 99.8%",
+    "Alta proporci\u00f3n de nulos en listed_count: 99.8%",
+    "Alta proporci\u00f3n de nulos en default_profile: 99.9%",
+    "Alta proporci\u00f3n de nulos en default_profile_image: 100.0%",
+    "Alta proporci\u00f3n de nulos en geo_enabled: 100.0%",
+    "Alta proporci\u00f3n de nulos en profile_use_background_image: 99.8%",
+    "Alta proporci\u00f3n de nulos en profile_background_tile: 99.9%",
+    "Alta proporci\u00f3n de nulos en utc_offset: 99.9%",
+    "Alta proporci\u00f3n de nulos en is_translator: 100.0%",
+    "Alta proporci\u00f3n de nulos en follow_request_sent: 100.0%",
+    "Alta proporci\u00f3n de nulos en protected: 100.0%",
+    "Alta proporci\u00f3n de nulos en verified: 100.0%",
+    "Alta proporci\u00f3n de nulos en notifications: 100.0%",
+    "Alta proporci\u00f3n de nulos en contributors_enabled: 100.0%",
+    "Alta proporci\u00f3n de nulos en following: 100.0%",
+    "Alta proporci\u00f3n de nulos en test_set_1: 99.9%",
+    "Alta proporci\u00f3n de nulos en test_set_2: 99.9%",
+    "La columna crowdflower_id no es \u00fanica",
+    "La columna class_confidence no es \u00fanica",
+    "La columna twitter_user_id no es \u00fanica",
+    "La columna contributor_id no es \u00fanica",
+    "La columna external_id no es \u00fanica",
+    "La columna id no es \u00fanica",
+    "La columna user_id no es \u00fanica",
+    "La columna in_reply_to_status_id no es \u00fanica",
+    "La columna in_reply_to_user_id no es \u00fanica",
+    "La columna retweeted_status_id no es \u00fanica",
+    "La columna profile_sidebar_border_color no es \u00fanica",
+    "La columna profile_sidebar_fill_color no es \u00fanica"
+  ]
+}

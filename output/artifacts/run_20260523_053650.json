@@ -1,0 +1,24 @@
+{
+  "run_id": "20260523_053650",
+  "timestamp": "2026-05-23T06:44:42.537867",
+  "seed": 42,
+  "random_state": 42,
+  "python_version": "3.10.11",
+  "n_features": 18,
+  "n_rows_features": 8136,
+  "best_model": "random_forest",
+  "metrics_summary": {
+    "model": "random_forest",
+    "accuracy": 0.9279279279279279,
+    "precision": 0.9131221085021289,
+    "recall": 0.9209618620886696,
+    "f1": 0.9162552711725462,
+    "roc_auc": NaN,
+    "cv_f1_macro_mean": 0.9088951737495045,
+    "cv_f1_macro_std": 0.002630218176191916
+  },
+  "artifacts_dir": "output\\artifacts",
+  "extra": {
+    "note": "auto-log from notebook cell 48"
+  }
+}
